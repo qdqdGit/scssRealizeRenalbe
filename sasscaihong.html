@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>sass 彩虹。想实现弯曲效果，还有模版（自己实现一个模版解析）</title>
+		<link href="css/scss.css" rel="stylesheet" />
+	</head>
+	<body>
+		
+		<script type="text/javascript">
+			var list = ['red', 'orange', 'yellow', 'green', 'blue', 'purple'];
+			var html = '';
+			for(var i = 0; i < list.length; i++){
+				var ul = document.createElement('ul');
+				ul.className = 'swatched '+list[i];
+				for(var j = 0; j < 20; j++){
+					var li = document.createElement('li');
+					ul.appendChild(li);
+				}
+				document.body.appendChild(ul);
+			}
+			
+		</script>
+	</body>
+</html>
