@@ -1,1096 +1,992 @@
-.swatched {
-  display: block; }
-  .swatched:after {
-    content: "";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden; }
-  .swatched li {
-    width: 4.7619%;
-    height: 60px;
-    float: left;
-    list-style: none outside none; }
+ul {
+  height: 60px;
+  display: block;
+  margin: 0px;
+  padding: 0px; }
+
+.swatches li {
+  width: 4.7619047619%;
+  float: left;
+  height: 60px;
+  list-style: none outside none; }
 
 ul.red li:nth-child(10) {
-  background-color: #d41643; }
+  background-color: #eb1f48; }
   ul.red li:nth-child(10):hover:before {
-    content: "#d41643";
-    color: #1c0309;
+    content: "#eb1f48";
+    color: #38050f;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.red li:nth-child(9) {
-  background-color: #e71d4d; }
+  background-color: #ed365b; }
   ul.red li:nth-child(9):hover:before {
-    content: "#e71d4d";
-    color: #330510;
+    content: "#ed365b";
+    color: #500716;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.red li:nth-child(8) {
-  background-color: #ea345f; }
+  background-color: #ef4e6e; }
   ul.red li:nth-child(8):hover:before {
-    content: "#ea345f";
-    color: #4a0817;
+    content: "#ef4e6e";
+    color: #67091c;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.red li:nth-child(7) {
-  background-color: #ec4b71; }
+  background-color: #f16581; }
   ul.red li:nth-child(7):hover:before {
-    content: "#ec4b71";
-    color: #610a1f;
+    content: "#f16581";
+    color: #7f0c23;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.red li:nth-child(6) {
-  background-color: #ee6283; }
+  background-color: #f37c94; }
   ul.red li:nth-child(6):hover:before {
-    content: "#ee6283";
-    color: #780d26;
+    content: "#f37c94";
+    color: #960e29;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.red li:nth-child(5) {
-  background-color: #f17995; }
+  background-color: #f594a7; }
   ul.red li:nth-child(5):hover:before {
-    content: "#f17995";
-    color: #8f0f2d;
+    content: "#f594a7";
+    color: #ad102f;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.red li:nth-child(4) {
-  background-color: #f390a8; }
+  background-color: #f7abba; }
   ul.red li:nth-child(4):hover:before {
-    content: "#f390a8";
-    color: #a61235;
+    content: "#f7abba";
+    color: #c51236;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.red li:nth-child(3) {
-  background-color: #f6a7ba; }
+  background-color: #fac3ce; }
   ul.red li:nth-child(3):hover:before {
-    content: "#f6a7ba";
-    color: #bd143c;
+    content: "#fac3ce";
+    color: crimson;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.red li:nth-child(2) {
-  background-color: #f8becc; }
+  background-color: #fcdae1; }
   ul.red li:nth-child(2):hover:before {
-    content: "#f8becc";
-    color: #d41643;
+    content: "#fcdae1";
+    color: #eb1f48;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.red li:nth-child(1) {
-  background-color: #fbd5de; }
+  background-color: #fef1f4; }
   ul.red li:nth-child(1):hover:before {
-    content: "#fbd5de";
-    color: #e71d4d;
+    content: "#fef1f4";
+    color: #ed365b;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
-ul.red li:nth-child(11) {
-  background-color: #a61235; }
-  ul.red li:nth-child(11):hover:before {
-    content: "#a61235";
-    color: #f390a8;
-    font-family: verdana;
-    font-size: 8px;
-    padding: 2px; }
-
 ul.red li:nth-child(12) {
-  background-color: #8f0f2d; }
+  background-color: #c51236; }
   ul.red li:nth-child(12):hover:before {
-    content: "#8f0f2d";
-    color: #f17995;
+    content: "#c51236";
+    color: #f7abba;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.red li:nth-child(13) {
-  background-color: #780d26; }
+  background-color: #ad102f; }
   ul.red li:nth-child(13):hover:before {
-    content: "#780d26";
-    color: #ee6283;
+    content: "#ad102f";
+    color: #f594a7;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.red li:nth-child(14) {
-  background-color: #610a1f; }
+  background-color: #960e29; }
   ul.red li:nth-child(14):hover:before {
-    content: "#610a1f";
-    color: #ec4b71;
+    content: "#960e29";
+    color: #f37c94;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.red li:nth-child(15) {
-  background-color: #4a0817; }
+  background-color: #7f0c23; }
   ul.red li:nth-child(15):hover:before {
-    content: "#4a0817";
-    color: #ea345f;
+    content: "#7f0c23";
+    color: #f16581;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.red li:nth-child(16) {
-  background-color: #330510; }
+  background-color: #67091c; }
   ul.red li:nth-child(16):hover:before {
-    content: "#330510";
-    color: #e71d4d;
+    content: "#67091c";
+    color: #ef4e6e;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.red li:nth-child(17) {
-  background-color: #1c0309; }
+  background-color: #500716; }
   ul.red li:nth-child(17):hover:before {
-    content: "#1c0309";
-    color: #d41643;
+    content: "#500716";
+    color: #ed365b;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.red li:nth-child(18) {
-  background-color: #050001; }
+  background-color: #38050f; }
   ul.red li:nth-child(18):hover:before {
-    content: "#050001";
-    color: #bd143c;
+    content: "#38050f";
+    color: #eb1f48;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.red li:nth-child(19) {
-  background-color: black; }
+  background-color: #210309; }
   ul.red li:nth-child(19):hover:before {
-    content: "black";
-    color: #666666;
+    content: "#210309";
+    color: crimson;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.red li:nth-child(20) {
-  background-color: black; }
+  background-color: #0a0103; }
   ul.red li:nth-child(20):hover:before {
-    content: "black";
-    color: #666666;
+    content: "#0a0103";
+    color: #c51236;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
+ul.red li:nth-child(21) {
+  background-color: black; }
+  ul.red li:nth-child(21):hover:before {
+    content: "black";
+    color: #bb1133;
+    font-family: verdana;
+    font-size: 8px;
+    padding: 2px; }
+ul.red li:nth-child(11) {
+  background-color: #dc143c; }
 
 ul.orange li:nth-child(10) {
-  background-color: #f06f14; }
+  background-color: #f4882f; }
   ul.orange li:nth-child(10):hover:before {
-    content: "#f06f14";
-    color: #351803;
+    content: "#f4882f";
+    color: #532804;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.orange li:nth-child(9) {
-  background-color: #f17e2c; }
+  background-color: #f69647; }
   ul.orange li:nth-child(9):hover:before {
-    content: "#f17e2c";
-    color: #4d2305;
+    content: "#f69647";
+    color: #6b3305;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.orange li:nth-child(8) {
-  background-color: #f38c44; }
+  background-color: #f7a35f; }
   ul.orange li:nth-child(8):hover:before {
-    content: "#f38c44";
-    color: #652d06;
+    content: "#f7a35f";
+    color: #833f07;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.orange li:nth-child(7) {
-  background-color: #f49b5c; }
+  background-color: #f8b177; }
   ul.orange li:nth-child(7):hover:before {
-    content: "#f49b5c";
-    color: #7c3808;
+    content: "#f8b177";
+    color: #9c4a08;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.orange li:nth-child(6) {
-  background-color: #f6aa74; }
+  background-color: #f9bf90; }
   ul.orange li:nth-child(6):hover:before {
-    content: "#f6aa74";
-    color: #94430a;
+    content: "#f9bf90";
+    color: #b45609;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.orange li:nth-child(5) {
-  background-color: #f8b88c; }
+  background-color: #fbcda8; }
   ul.orange li:nth-child(5):hover:before {
-    content: "#f8b88c";
-    color: #ac4e0b;
+    content: "#fbcda8";
+    color: #cc620a;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.orange li:nth-child(4) {
-  background-color: #f9c7a4; }
+  background-color: #fcdbc0; }
   ul.orange li:nth-child(4):hover:before {
-    content: "#f9c7a4";
-    color: #c4590d;
+    content: "#fcdbc0";
+    color: #e46d0c;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.orange li:nth-child(3) {
-  background-color: #fbd6bc; }
+  background-color: #fde9d8; }
   ul.orange li:nth-child(3):hover:before {
-    content: "#fbd6bc";
-    color: #dc630e;
+    content: "#fde9d8";
+    color: #f37a16;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.orange li:nth-child(2) {
-  background-color: #fce4d4; }
+  background-color: #fef7f1; }
   ul.orange li:nth-child(2):hover:before {
-    content: "#fce4d4";
-    color: #f06f14;
+    content: "#fef7f1";
+    color: #f4882f;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.orange li:nth-child(1) {
-  background-color: #fef3ec; }
+  background-color: white; }
   ul.orange li:nth-child(1):hover:before {
-    content: "#fef3ec";
-    color: #f17e2c;
+    content: "white";
+    color: #f5903d;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
-ul.orange li:nth-child(11) {
-  background-color: #c4590d; }
-  ul.orange li:nth-child(11):hover:before {
-    content: "#c4590d";
-    color: #f9c7a4;
-    font-family: verdana;
-    font-size: 8px;
-    padding: 2px; }
-
 ul.orange li:nth-child(12) {
-  background-color: #ac4e0b; }
+  background-color: #e46d0c; }
   ul.orange li:nth-child(12):hover:before {
-    content: "#ac4e0b";
-    color: #f8b88c;
+    content: "#e46d0c";
+    color: #fcdbc0;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.orange li:nth-child(13) {
-  background-color: #94430a; }
+  background-color: #cc620a; }
   ul.orange li:nth-child(13):hover:before {
-    content: "#94430a";
-    color: #f6aa74;
+    content: "#cc620a";
+    color: #fbcda8;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.orange li:nth-child(14) {
-  background-color: #7c3808; }
+  background-color: #b45609; }
   ul.orange li:nth-child(14):hover:before {
-    content: "#7c3808";
-    color: #f49b5c;
+    content: "#b45609";
+    color: #f9bf90;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.orange li:nth-child(15) {
-  background-color: #652d06; }
+  background-color: #9c4a08; }
   ul.orange li:nth-child(15):hover:before {
-    content: "#652d06";
-    color: #f38c44;
+    content: "#9c4a08";
+    color: #f8b177;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.orange li:nth-child(16) {
-  background-color: #4d2305; }
+  background-color: #833f07; }
   ul.orange li:nth-child(16):hover:before {
-    content: "#4d2305";
-    color: #f17e2c;
+    content: "#833f07";
+    color: #f7a35f;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.orange li:nth-child(17) {
-  background-color: #351803; }
+  background-color: #6b3305; }
   ul.orange li:nth-child(17):hover:before {
-    content: "#351803";
-    color: #f06f14;
+    content: "#6b3305";
+    color: #f69647;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.orange li:nth-child(18) {
-  background-color: #1d0d02; }
+  background-color: #532804; }
   ul.orange li:nth-child(18):hover:before {
-    content: "#1d0d02";
-    color: #dc630e;
+    content: "#532804";
+    color: #f4882f;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.orange li:nth-child(19) {
-  background-color: #050200; }
+  background-color: #3b1c03; }
   ul.orange li:nth-child(19):hover:before {
-    content: "#050200";
-    color: #c4590d;
+    content: "#3b1c03";
+    color: #f37a16;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.orange li:nth-child(20) {
-  background-color: black; }
+  background-color: #221002; }
   ul.orange li:nth-child(20):hover:before {
-    content: "black";
-    color: #666666;
+    content: "#221002";
+    color: #e46d0c;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
+ul.orange li:nth-child(21) {
+  background-color: #0a0501; }
+  ul.orange li:nth-child(21):hover:before {
+    content: "#0a0501";
+    color: #cc620a;
+    font-family: verdana;
+    font-size: 8px;
+    padding: 2px; }
+ul.orange li:nth-child(11) {
+  background-color: #f37a16; }
 
 ul.yellow li:nth-child(10) {
-  background-color: #f7d012; }
+  background-color: #fbe02d; }
   ul.yellow li:nth-child(10):hover:before {
-    content: "#f7d012";
-    color: #3b3102;
+    content: "#fbe02d";
+    color: #5a4f02;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.yellow li:nth-child(9) {
-  background-color: #f8d52a; }
+  background-color: #fce346; }
   ul.yellow li:nth-child(9):hover:before {
-    content: "#f8d52a";
-    color: #544603;
+    content: "#fce346";
+    color: #736402;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.yellow li:nth-child(8) {
-  background-color: #f9da43; }
+  background-color: #fce75f; }
   ul.yellow li:nth-child(8):hover:before {
-    content: "#f9da43";
-    color: #6d5b03;
+    content: "#fce75f";
+    color: #8c7a03;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.yellow li:nth-child(7) {
-  background-color: #fadf5c; }
+  background-color: #fceb78; }
   ul.yellow li:nth-child(7):hover:before {
-    content: "#fadf5c";
-    color: #856f04;
+    content: "#fceb78";
+    color: #a69003;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.yellow li:nth-child(6) {
-  background-color: #fbe474; }
+  background-color: #fdef91; }
   ul.yellow li:nth-child(6):hover:before {
-    content: "#fbe474";
-    color: #9e8405;
+    content: "#fdef91";
+    color: #bfa604;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.yellow li:nth-child(5) {
-  background-color: #fbe98d; }
+  background-color: #fdf2aa; }
   ul.yellow li:nth-child(5):hover:before {
-    content: "#fbe98d";
-    color: #b79906;
+    content: "#fdf2aa";
+    color: #d8bb04;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.yellow li:nth-child(4) {
-  background-color: #fceea6; }
+  background-color: #fef6c3; }
   ul.yellow li:nth-child(4):hover:before {
-    content: "#fceea6";
-    color: #d0ad07;
+    content: "#fef6c3";
+    color: #f1d104;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.yellow li:nth-child(3) {
-  background-color: #fdf2bf; }
+  background-color: #fefadc; }
   ul.yellow li:nth-child(3):hover:before {
-    content: "#fdf2bf";
-    color: #e8c207;
+    content: "#fefadc";
+    color: #fbdc14;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.yellow li:nth-child(2) {
-  background-color: #fef7d7; }
+  background-color: #fffef5; }
   ul.yellow li:nth-child(2):hover:before {
-    content: "#fef7d7";
-    color: #f7d012;
+    content: "#fffef5";
+    color: #fbe02d;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.yellow li:nth-child(1) {
-  background-color: #fffcf0; }
+  background-color: white; }
   ul.yellow li:nth-child(1):hover:before {
-    content: "#fffcf0";
-    color: #f8d52a;
+    content: "white";
+    color: #fbe137;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
-ul.yellow li:nth-child(11) {
-  background-color: #d0ad07; }
-  ul.yellow li:nth-child(11):hover:before {
-    content: "#d0ad07";
-    color: #fceea6;
-    font-family: verdana;
-    font-size: 8px;
-    padding: 2px; }
-
 ul.yellow li:nth-child(12) {
-  background-color: #b79906; }
+  background-color: #f1d104; }
   ul.yellow li:nth-child(12):hover:before {
-    content: "#b79906";
-    color: #fbe98d;
+    content: "#f1d104";
+    color: #fef6c3;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.yellow li:nth-child(13) {
-  background-color: #9e8405; }
+  background-color: #d8bb04; }
   ul.yellow li:nth-child(13):hover:before {
-    content: "#9e8405";
-    color: #fbe474;
+    content: "#d8bb04";
+    color: #fdf2aa;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.yellow li:nth-child(14) {
-  background-color: #856f04; }
+  background-color: #bfa604; }
   ul.yellow li:nth-child(14):hover:before {
-    content: "#856f04";
-    color: #fadf5c;
+    content: "#bfa604";
+    color: #fdef91;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.yellow li:nth-child(15) {
-  background-color: #6d5b03; }
+  background-color: #a69003; }
   ul.yellow li:nth-child(15):hover:before {
-    content: "#6d5b03";
-    color: #f9da43;
+    content: "#a69003";
+    color: #fceb78;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.yellow li:nth-child(16) {
-  background-color: #544603; }
+  background-color: #8c7a03; }
   ul.yellow li:nth-child(16):hover:before {
-    content: "#544603";
-    color: #f8d52a;
+    content: "#8c7a03";
+    color: #fce75f;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.yellow li:nth-child(17) {
-  background-color: #3b3102; }
+  background-color: #736402; }
   ul.yellow li:nth-child(17):hover:before {
-    content: "#3b3102";
-    color: #f7d012;
+    content: "#736402";
+    color: #fce346;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.yellow li:nth-child(18) {
-  background-color: #231d01; }
+  background-color: #5a4f02; }
   ul.yellow li:nth-child(18):hover:before {
-    content: "#231d01";
-    color: #e8c207;
+    content: "#5a4f02";
+    color: #fbe02d;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.yellow li:nth-child(19) {
-  background-color: #0a0800; }
+  background-color: #413901; }
   ul.yellow li:nth-child(19):hover:before {
-    content: "#0a0800";
-    color: #d0ad07;
+    content: "#413901";
+    color: #fbdc14;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.yellow li:nth-child(20) {
-  background-color: black; }
+  background-color: #282301; }
   ul.yellow li:nth-child(20):hover:before {
-    content: "black";
-    color: #666666;
+    content: "#282301";
+    color: #f1d104;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
+ul.yellow li:nth-child(21) {
+  background-color: #0f0d00; }
+  ul.yellow li:nth-child(21):hover:before {
+    content: "#0f0d00";
+    color: #d8bb04;
+    font-family: verdana;
+    font-size: 8px;
+    padding: 2px; }
+ul.yellow li:nth-child(11) {
+  background-color: #fbdc14; }
 
 ul.green li:nth-child(10) {
-  background-color: #83eb0a; }
+  background-color: #80dc24; }
   ul.green li:nth-child(10):hover:before {
-    content: "#83eb0a";
-    color: #162702;
+    content: "#80dc24";
+    color: #1a2c07;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.green li:nth-child(9) {
-  background-color: #8ff519; }
+  background-color: #8cdf3a; }
   ul.green li:nth-child(9):hover:before {
-    content: "#8ff519";
-    color: #234003;
+    content: "#8cdf3a";
+    color: #26420b;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.green li:nth-child(8) {
-  background-color: #9bf631; }
+  background-color: #99e34f; }
   ul.green li:nth-child(8):hover:before {
-    content: "#9bf631";
-    color: #315804;
+    content: "#99e34f";
+    color: #33580e;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.green li:nth-child(7) {
-  background-color: #a7f74a; }
+  background-color: #a6e665; }
   ul.green li:nth-child(7):hover:before {
-    content: "#a7f74a";
-    color: #3f7005;
+    content: "#a6e665";
+    color: #406e12;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.green li:nth-child(6) {
-  background-color: #b3f862; }
+  background-color: #b3ea7b; }
   ul.green li:nth-child(6):hover:before {
-    content: "#b3f862";
-    color: #4c8906;
+    content: "#b3ea7b";
+    color: #4d8415;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.green li:nth-child(5) {
-  background-color: #bff97b; }
+  background-color: #bfed91; }
   ul.green li:nth-child(5):hover:before {
-    content: "#bff97b";
-    color: #5aa107;
+    content: "#bfed91";
+    color: #599a19;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.green li:nth-child(4) {
-  background-color: #cbfa93; }
+  background-color: #ccf1a7; }
   ul.green li:nth-child(4):hover:before {
-    content: "#cbfa93";
-    color: #67ba08;
+    content: "#ccf1a7";
+    color: #66b01c;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.green li:nth-child(3) {
-  background-color: #d7fbac; }
+  background-color: #d9f4bd; }
   ul.green li:nth-child(3):hover:before {
-    content: "#d7fbac";
-    color: #75d209;
+    content: "#d9f4bd";
+    color: #73c620;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.green li:nth-child(2) {
-  background-color: #e2fdc4; }
+  background-color: #e6f8d3; }
   ul.green li:nth-child(2):hover:before {
-    content: "#e2fdc4";
-    color: #83eb0a;
+    content: "#e6f8d3";
+    color: #80dc24;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.green li:nth-child(1) {
-  background-color: #eefedd; }
+  background-color: #f2fce9; }
   ul.green li:nth-child(1):hover:before {
-    content: "#eefedd";
-    color: #8ff519;
+    content: "#f2fce9";
+    color: #8cdf3a;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
-ul.green li:nth-child(11) {
-  background-color: #67ba08; }
-  ul.green li:nth-child(11):hover:before {
-    content: "#67ba08";
-    color: #cbfa93;
-    font-family: verdana;
-    font-size: 8px;
-    padding: 2px; }
-
 ul.green li:nth-child(12) {
-  background-color: #5aa107; }
+  background-color: #66b01c; }
   ul.green li:nth-child(12):hover:before {
-    content: "#5aa107";
-    color: #bff97b;
+    content: "#66b01c";
+    color: #ccf1a7;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.green li:nth-child(13) {
-  background-color: #4c8906; }
+  background-color: #599a19; }
   ul.green li:nth-child(13):hover:before {
-    content: "#4c8906";
-    color: #b3f862;
+    content: "#599a19";
+    color: #bfed91;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.green li:nth-child(14) {
-  background-color: #3f7005; }
+  background-color: #4d8415; }
   ul.green li:nth-child(14):hover:before {
-    content: "#3f7005";
-    color: #a7f74a;
+    content: "#4d8415";
+    color: #b3ea7b;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.green li:nth-child(15) {
-  background-color: #315804; }
+  background-color: #406e12; }
   ul.green li:nth-child(15):hover:before {
-    content: "#315804";
-    color: #9bf631;
+    content: "#406e12";
+    color: #a6e665;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.green li:nth-child(16) {
-  background-color: #234003; }
+  background-color: #33580e; }
   ul.green li:nth-child(16):hover:before {
-    content: "#234003";
-    color: #8ff519;
+    content: "#33580e";
+    color: #99e34f;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.green li:nth-child(17) {
-  background-color: #162702; }
+  background-color: #26420b; }
   ul.green li:nth-child(17):hover:before {
-    content: "#162702";
-    color: #83eb0a;
+    content: "#26420b";
+    color: #8cdf3a;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.green li:nth-child(18) {
-  background-color: #080f01; }
+  background-color: #1a2c07; }
   ul.green li:nth-child(18):hover:before {
-    content: "#080f01";
-    color: #75d209;
+    content: "#1a2c07";
+    color: #80dc24;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.green li:nth-child(19) {
-  background-color: black; }
+  background-color: #0d1604; }
   ul.green li:nth-child(19):hover:before {
-    content: "black";
-    color: #666666;
+    content: "#0d1604";
+    color: #73c620;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.green li:nth-child(20) {
   background-color: black; }
   ul.green li:nth-child(20):hover:before {
     content: "black";
-    color: #666666;
+    color: #66b01c;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
+ul.green li:nth-child(21) {
+  background-color: black; }
+  ul.green li:nth-child(21):hover:before {
+    content: "black";
+    color: #66b01c;
+    font-family: verdana;
+    font-size: 8px;
+    padding: 2px; }
+ul.green li:nth-child(11) {
+  background-color: #73c620; }
 
 ul.blue li:nth-child(10) {
-  background-color: #16c8df; }
+  background-color: #14cbeb; }
   ul.blue li:nth-child(10):hover:before {
-    content: "#16c8df";
-    color: #042125;
+    content: "#14cbeb";
+    color: #04292f;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.blue li:nth-child(9) {
-  background-color: #25d3e9; }
+  background-color: #2cd0ed; }
   ul.blue li:nth-child(9):hover:before {
-    content: "#25d3e9";
-    color: #06363c;
+    content: "#2cd0ed";
+    color: #063d47;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.blue li:nth-child(8) {
-  background-color: #3cd8ec; }
+  background-color: #43d5ef; }
   ul.blue li:nth-child(8):hover:before {
-    content: "#3cd8ec";
-    color: #084b53;
+    content: "#43d5ef";
+    color: #08515e;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.blue li:nth-child(7) {
-  background-color: #53dcee; }
+  background-color: #5bdaf1; }
   ul.blue li:nth-child(7):hover:before {
-    content: "#53dcee";
-    color: #0b606b;
+    content: "#5bdaf1";
+    color: #0a6676;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.blue li:nth-child(6) {
-  background-color: #6be1f0; }
+  background-color: #72e0f3; }
   ul.blue li:nth-child(6):hover:before {
-    content: "#6be1f0";
-    color: #0d7582;
+    content: "#72e0f3";
+    color: #0c7a8d;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.blue li:nth-child(5) {
-  background-color: #82e6f3; }
+  background-color: #8ae5f5; }
   ul.blue li:nth-child(5):hover:before {
-    content: "#82e6f3";
-    color: #0f8999;
+    content: "#8ae5f5";
+    color: #0e8ea5;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.blue li:nth-child(4) {
-  background-color: #99eaf5; }
+  background-color: #a1eaf7; }
   ul.blue li:nth-child(4):hover:before {
-    content: "#99eaf5";
-    color: #129eb0;
+    content: "#a1eaf7";
+    color: #10a2bc;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.blue li:nth-child(3) {
-  background-color: #b0eff7; }
+  background-color: #b9eff9; }
   ul.blue li:nth-child(3):hover:before {
-    content: "#b0eff7";
-    color: #14b3c7;
+    content: "#b9eff9";
+    color: #12b7d4;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.blue li:nth-child(2) {
-  background-color: #c7f4f9; }
+  background-color: #d0f5fb; }
   ul.blue li:nth-child(2):hover:before {
-    content: "#c7f4f9";
-    color: #16c8df;
+    content: "#d0f5fb";
+    color: #14cbeb;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.blue li:nth-child(1) {
-  background-color: #def8fc; }
+  background-color: #e8fafd; }
   ul.blue li:nth-child(1):hover:before {
-    content: "#def8fc";
-    color: #25d3e9;
+    content: "#e8fafd";
+    color: #2cd0ed;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
-ul.blue li:nth-child(11) {
-  background-color: #129eb0; }
-  ul.blue li:nth-child(11):hover:before {
-    content: "#129eb0";
-    color: #99eaf5;
-    font-family: verdana;
-    font-size: 8px;
-    padding: 2px; }
-
 ul.blue li:nth-child(12) {
-  background-color: #0f8999; }
+  background-color: #10a2bc; }
   ul.blue li:nth-child(12):hover:before {
-    content: "#0f8999";
-    color: #82e6f3;
+    content: "#10a2bc";
+    color: #a1eaf7;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.blue li:nth-child(13) {
-  background-color: #0d7582; }
+  background-color: #0e8ea5; }
   ul.blue li:nth-child(13):hover:before {
-    content: "#0d7582";
-    color: #6be1f0;
+    content: "#0e8ea5";
+    color: #8ae5f5;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.blue li:nth-child(14) {
-  background-color: #0b606b; }
+  background-color: #0c7a8d; }
   ul.blue li:nth-child(14):hover:before {
-    content: "#0b606b";
-    color: #53dcee;
+    content: "#0c7a8d";
+    color: #72e0f3;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.blue li:nth-child(15) {
-  background-color: #084b53; }
+  background-color: #0a6676; }
   ul.blue li:nth-child(15):hover:before {
-    content: "#084b53";
-    color: #3cd8ec;
+    content: "#0a6676";
+    color: #5bdaf1;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.blue li:nth-child(16) {
-  background-color: #06363c; }
+  background-color: #08515e; }
   ul.blue li:nth-child(16):hover:before {
-    content: "#06363c";
-    color: #25d3e9;
+    content: "#08515e";
+    color: #43d5ef;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.blue li:nth-child(17) {
-  background-color: #042125; }
+  background-color: #063d47; }
   ul.blue li:nth-child(17):hover:before {
-    content: "#042125";
-    color: #16c8df;
+    content: "#063d47";
+    color: #2cd0ed;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.blue li:nth-child(18) {
-  background-color: #010c0e; }
+  background-color: #04292f; }
   ul.blue li:nth-child(18):hover:before {
-    content: "#010c0e";
-    color: #14b3c7;
+    content: "#04292f";
+    color: #14cbeb;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.blue li:nth-child(19) {
-  background-color: black; }
+  background-color: #021518; }
   ul.blue li:nth-child(19):hover:before {
-    content: "black";
-    color: #666666;
+    content: "#021518";
+    color: #12b7d4;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.blue li:nth-child(20) {
   background-color: black; }
   ul.blue li:nth-child(20):hover:before {
     content: "black";
-    color: #666666;
+    color: #10a2bc;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
+ul.blue li:nth-child(21) {
+  background-color: black; }
+  ul.blue li:nth-child(21):hover:before {
+    content: "black";
+    color: #10a2bc;
+    font-family: verdana;
+    font-size: 8px;
+    padding: 2px; }
+ul.blue li:nth-child(11) {
+  background-color: #12b7d4; }
 
 ul.purple li:nth-child(10) {
-  background-color: #a216df; }
+  background-color: #b214eb; }
   ul.purple li:nth-child(10):hover:before {
-    content: "#a216df";
-    color: #1b0425;
+    content: "#b214eb";
+    color: #24042f;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.purple li:nth-child(9) {
-  background-color: #ae25e9; }
+  background-color: #ba2ced; }
   ul.purple li:nth-child(9):hover:before {
-    content: "#ae25e9";
-    color: #2c063c;
+    content: "#ba2ced";
+    color: #360647;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.purple li:nth-child(8) {
-  background-color: #b63cec; }
+  background-color: #c143ef; }
   ul.purple li:nth-child(8):hover:before {
-    content: "#b63cec";
-    color: #3d0853;
+    content: "#c143ef";
+    color: #47085e;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.purple li:nth-child(7) {
-  background-color: #bf53ee; }
+  background-color: #c95bf1; }
   ul.purple li:nth-child(7):hover:before {
-    content: "#bf53ee";
-    color: #4d0b6b;
+    content: "#c95bf1";
+    color: #590a76;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.purple li:nth-child(6) {
-  background-color: #c86bf0; }
+  background-color: #d172f3; }
   ul.purple li:nth-child(6):hover:before {
-    content: "#c86bf0";
-    color: #5e0d82;
+    content: "#d172f3";
+    color: #6b0c8d;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.purple li:nth-child(5) {
-  background-color: #d082f3; }
+  background-color: #d88af5; }
   ul.purple li:nth-child(5):hover:before {
-    content: "#d082f3";
-    color: #6f0f99;
+    content: "#d88af5";
+    color: #7d0ea5;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.purple li:nth-child(4) {
-  background-color: #d999f5; }
+  background-color: #e0a1f7; }
   ul.purple li:nth-child(4):hover:before {
-    content: "#d999f5";
-    color: #8012b0;
+    content: "#e0a1f7";
+    color: #8e10bc;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.purple li:nth-child(3) {
-  background-color: #e2b0f7; }
+  background-color: #e8b9f9; }
   ul.purple li:nth-child(3):hover:before {
-    content: "#e2b0f7";
-    color: #9114c7;
+    content: "#e8b9f9";
+    color: #a012d4;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.purple li:nth-child(2) {
-  background-color: #eac7f9; }
+  background-color: #f0d0fb; }
   ul.purple li:nth-child(2):hover:before {
-    content: "#eac7f9";
-    color: #a216df;
+    content: "#f0d0fb";
+    color: #b214eb;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.purple li:nth-child(1) {
-  background-color: #f3defc; }
+  background-color: #f7e8fd; }
   ul.purple li:nth-child(1):hover:before {
-    content: "#f3defc";
-    color: #ae25e9;
+    content: "#f7e8fd";
+    color: #ba2ced;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
-ul.purple li:nth-child(11) {
-  background-color: #8012b0; }
-  ul.purple li:nth-child(11):hover:before {
-    content: "#8012b0";
-    color: #d999f5;
-    font-family: verdana;
-    font-size: 8px;
-    padding: 2px; }
-
 ul.purple li:nth-child(12) {
-  background-color: #6f0f99; }
+  background-color: #8e10bc; }
   ul.purple li:nth-child(12):hover:before {
-    content: "#6f0f99";
-    color: #d082f3;
+    content: "#8e10bc";
+    color: #e0a1f7;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.purple li:nth-child(13) {
-  background-color: #5e0d82; }
+  background-color: #7d0ea5; }
   ul.purple li:nth-child(13):hover:before {
-    content: "#5e0d82";
-    color: #c86bf0;
+    content: "#7d0ea5";
+    color: #d88af5;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.purple li:nth-child(14) {
-  background-color: #4d0b6b; }
+  background-color: #6b0c8d; }
   ul.purple li:nth-child(14):hover:before {
-    content: "#4d0b6b";
-    color: #bf53ee;
+    content: "#6b0c8d";
+    color: #d172f3;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.purple li:nth-child(15) {
-  background-color: #3d0853; }
+  background-color: #590a76; }
   ul.purple li:nth-child(15):hover:before {
-    content: "#3d0853";
-    color: #b63cec;
+    content: "#590a76";
+    color: #c95bf1;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.purple li:nth-child(16) {
-  background-color: #2c063c; }
+  background-color: #47085e; }
   ul.purple li:nth-child(16):hover:before {
-    content: "#2c063c";
-    color: #ae25e9;
+    content: "#47085e";
+    color: #c143ef;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.purple li:nth-child(17) {
-  background-color: #1b0425; }
+  background-color: #360647; }
   ul.purple li:nth-child(17):hover:before {
-    content: "#1b0425";
-    color: #a216df;
+    content: "#360647";
+    color: #ba2ced;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.purple li:nth-child(18) {
-  background-color: #0a010e; }
+  background-color: #24042f; }
   ul.purple li:nth-child(18):hover:before {
-    content: "#0a010e";
-    color: #9114c7;
+    content: "#24042f";
+    color: #b214eb;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.purple li:nth-child(19) {
-  background-color: black; }
+  background-color: #120218; }
   ul.purple li:nth-child(19):hover:before {
-    content: "black";
-    color: #666666;
+    content: "#120218";
+    color: #a012d4;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.purple li:nth-child(20) {
   background-color: black; }
   ul.purple li:nth-child(20):hover:before {
     content: "black";
-    color: #666666;
+    color: #8e10bc;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
+ul.purple li:nth-child(21) {
+  background-color: black; }
+  ul.purple li:nth-child(21):hover:before {
+    content: "black";
+    color: #8e10bc;
+    font-family: verdana;
+    font-size: 8px;
+    padding: 2px; }
+ul.purple li:nth-child(11) {
+  background-color: #a012d4; }
 
 ul.black li:nth-child(10) {
   background-color: #848484; }
@@ -1100,7 +996,6 @@ ul.black li:nth-child(10) {
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.black li:nth-child(9) {
   background-color: #919191; }
   ul.black li:nth-child(9):hover:before {
@@ -1109,7 +1004,6 @@ ul.black li:nth-child(9) {
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.black li:nth-child(8) {
   background-color: #9d9d9d; }
   ul.black li:nth-child(8):hover:before {
@@ -1118,7 +1012,6 @@ ul.black li:nth-child(8) {
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.black li:nth-child(7) {
   background-color: #aaaaaa; }
   ul.black li:nth-child(7):hover:before {
@@ -1127,7 +1020,6 @@ ul.black li:nth-child(7) {
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.black li:nth-child(6) {
   background-color: #b7b7b7; }
   ul.black li:nth-child(6):hover:before {
@@ -1136,7 +1028,6 @@ ul.black li:nth-child(6) {
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.black li:nth-child(5) {
   background-color: #c4c4c4; }
   ul.black li:nth-child(5):hover:before {
@@ -1145,7 +1036,6 @@ ul.black li:nth-child(5) {
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.black li:nth-child(4) {
   background-color: #d0d0d0; }
   ul.black li:nth-child(4):hover:before {
@@ -1154,7 +1044,6 @@ ul.black li:nth-child(4) {
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.black li:nth-child(3) {
   background-color: #dddddd; }
   ul.black li:nth-child(3):hover:before {
@@ -1163,7 +1052,6 @@ ul.black li:nth-child(3) {
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.black li:nth-child(2) {
   background-color: #eaeaea; }
   ul.black li:nth-child(2):hover:before {
@@ -1172,7 +1060,6 @@ ul.black li:nth-child(2) {
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
 ul.black li:nth-child(1) {
   background-color: #f7f7f7; }
   ul.black li:nth-child(1):hover:before {
@@ -1181,93 +1068,250 @@ ul.black li:nth-child(1) {
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
-ul.black li:nth-child(11) {
+ul.black li:nth-child(12) {
   background-color: #6a6a6a; }
-  ul.black li:nth-child(11):hover:before {
+  ul.black li:nth-child(12):hover:before {
     content: "#6a6a6a";
     color: #d0d0d0;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
-ul.black li:nth-child(12) {
+ul.black li:nth-child(13) {
   background-color: #5e5e5e; }
-  ul.black li:nth-child(12):hover:before {
+  ul.black li:nth-child(13):hover:before {
     content: "#5e5e5e";
     color: #c4c4c4;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
-ul.black li:nth-child(13) {
+ul.black li:nth-child(14) {
   background-color: #515151; }
-  ul.black li:nth-child(13):hover:before {
+  ul.black li:nth-child(14):hover:before {
     content: "#515151";
     color: #b7b7b7;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
-ul.black li:nth-child(14) {
+ul.black li:nth-child(15) {
   background-color: #444444; }
-  ul.black li:nth-child(14):hover:before {
+  ul.black li:nth-child(15):hover:before {
     content: "#444444";
     color: #aaaaaa;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
-ul.black li:nth-child(15) {
+ul.black li:nth-child(16) {
   background-color: #373737; }
-  ul.black li:nth-child(15):hover:before {
+  ul.black li:nth-child(16):hover:before {
     content: "#373737";
     color: #9d9d9d;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
-ul.black li:nth-child(16) {
+ul.black li:nth-child(17) {
   background-color: #2b2b2b; }
-  ul.black li:nth-child(16):hover:before {
+  ul.black li:nth-child(17):hover:before {
     content: "#2b2b2b";
     color: #919191;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
-ul.black li:nth-child(17) {
+ul.black li:nth-child(18) {
   background-color: #1e1e1e; }
-  ul.black li:nth-child(17):hover:before {
+  ul.black li:nth-child(18):hover:before {
     content: "#1e1e1e";
     color: #848484;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
-ul.black li:nth-child(18) {
+ul.black li:nth-child(19) {
   background-color: #111111; }
-  ul.black li:nth-child(18):hover:before {
+  ul.black li:nth-child(19):hover:before {
     content: "#111111";
     color: #777777;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
-ul.black li:nth-child(19) {
+ul.black li:nth-child(20) {
   background-color: #040404; }
-  ul.black li:nth-child(19):hover:before {
+  ul.black li:nth-child(20):hover:before {
     content: "#040404";
     color: #6a6a6a;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
-
-ul.black li:nth-child(20) {
+ul.black li:nth-child(21) {
   background-color: black; }
-  ul.black li:nth-child(20):hover:before {
+  ul.black li:nth-child(21):hover:before {
     content: "black";
     color: #666666;
     font-family: verdana;
     font-size: 8px;
     padding: 2px; }
+ul.black li:nth-child(11) {
+  background-color: #777; }
+
+ul.white li:nth-child(10) {
+  background-color: white; }
+  ul.white li:nth-child(10):hover:before {
+    content: "white";
+    color: #999999;
+    font-family: verdana;
+    font-size: 8px;
+    padding: 2px; }
+ul.white li:nth-child(9) {
+  background-color: white; }
+  ul.white li:nth-child(9):hover:before {
+    content: "white";
+    color: #999999;
+    font-family: verdana;
+    font-size: 8px;
+    padding: 2px; }
+ul.white li:nth-child(8) {
+  background-color: white; }
+  ul.white li:nth-child(8):hover:before {
+    content: "white";
+    color: #999999;
+    font-family: verdana;
+    font-size: 8px;
+    padding: 2px; }
+ul.white li:nth-child(7) {
+  background-color: white; }
+  ul.white li:nth-child(7):hover:before {
+    content: "white";
+    color: #999999;
+    font-family: verdana;
+    font-size: 8px;
+    padding: 2px; }
+ul.white li:nth-child(6) {
+  background-color: white; }
+  ul.white li:nth-child(6):hover:before {
+    content: "white";
+    color: #999999;
+    font-family: verdana;
+    font-size: 8px;
+    padding: 2px; }
+ul.white li:nth-child(5) {
+  background-color: white; }
+  ul.white li:nth-child(5):hover:before {
+    content: "white";
+    color: #999999;
+    font-family: verdana;
+    font-size: 8px;
+    padding: 2px; }
+ul.white li:nth-child(4) {
+  background-color: white; }
+  ul.white li:nth-child(4):hover:before {
+    content: "white";
+    color: #999999;
+    font-family: verdana;
+    font-size: 8px;
+    padding: 2px; }
+ul.white li:nth-child(3) {
+  background-color: white; }
+  ul.white li:nth-child(3):hover:before {
+    content: "white";
+    color: #999999;
+    font-family: verdana;
+    font-size: 8px;
+    padding: 2px; }
+ul.white li:nth-child(2) {
+  background-color: white; }
+  ul.white li:nth-child(2):hover:before {
+    content: "white";
+    color: #999999;
+    font-family: verdana;
+    font-size: 8px;
+    padding: 2px; }
+ul.white li:nth-child(1) {
+  background-color: white; }
+  ul.white li:nth-child(1):hover:before {
+    content: "white";
+    color: #999999;
+    font-family: verdana;
+    font-size: 8px;
+    padding: 2px; }
+ul.white li:nth-child(12) {
+  background-color: #f2f2f2; }
+  ul.white li:nth-child(12):hover:before {
+    content: "#f2f2f2";
+    color: white;
+    font-family: verdana;
+    font-size: 8px;
+    padding: 2px; }
+ul.white li:nth-child(13) {
+  background-color: #e6e6e6; }
+  ul.white li:nth-child(13):hover:before {
+    content: "#e6e6e6";
+    color: white;
+    font-family: verdana;
+    font-size: 8px;
+    padding: 2px; }
+ul.white li:nth-child(14) {
+  background-color: #d9d9d9; }
+  ul.white li:nth-child(14):hover:before {
+    content: "#d9d9d9";
+    color: white;
+    font-family: verdana;
+    font-size: 8px;
+    padding: 2px; }
+ul.white li:nth-child(15) {
+  background-color: #cccccc; }
+  ul.white li:nth-child(15):hover:before {
+    content: "#cccccc";
+    color: white;
+    font-family: verdana;
+    font-size: 8px;
+    padding: 2px; }
+ul.white li:nth-child(16) {
+  background-color: #bfbfbf; }
+  ul.white li:nth-child(16):hover:before {
+    content: "#bfbfbf";
+    color: white;
+    font-family: verdana;
+    font-size: 8px;
+    padding: 2px; }
+ul.white li:nth-child(17) {
+  background-color: #b3b3b3; }
+  ul.white li:nth-child(17):hover:before {
+    content: "#b3b3b3";
+    color: white;
+    font-family: verdana;
+    font-size: 8px;
+    padding: 2px; }
+ul.white li:nth-child(18) {
+  background-color: #a6a6a6; }
+  ul.white li:nth-child(18):hover:before {
+    content: "#a6a6a6";
+    color: white;
+    font-family: verdana;
+    font-size: 8px;
+    padding: 2px; }
+ul.white li:nth-child(19) {
+  background-color: #999999; }
+  ul.white li:nth-child(19):hover:before {
+    content: "#999999";
+    color: white;
+    font-family: verdana;
+    font-size: 8px;
+    padding: 2px; }
+ul.white li:nth-child(20) {
+  background-color: #8c8c8c; }
+  ul.white li:nth-child(20):hover:before {
+    content: "#8c8c8c";
+    color: #f2f2f2;
+    font-family: verdana;
+    font-size: 8px;
+    padding: 2px; }
+ul.white li:nth-child(21) {
+  background-color: gray; }
+  ul.white li:nth-child(21):hover:before {
+    content: "gray";
+    color: #e6e6e6;
+    font-family: verdana;
+    font-size: 8px;
+    padding: 2px; }
+ul.white li:nth-child(11) {
+  background-color: #fff; }
+
+/*# sourceMappingURL=style.css.map */

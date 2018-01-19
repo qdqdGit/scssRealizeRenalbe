@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+
+            var color = ["red","orange","yellow","green","blue","purple"];
+
+            for(var i=1; i < color.length; i++){
+                var ul = $("<ul></ul>").addClass('swatches').addClass(color[i]);
+                $('body').append(ul);
+
+                for(var ii=1; ii< 21; ii++){
+                    var li = $("<li></li>");
+                    $('.swatches.' + color[i]).append(li);
+                }
+            }
+
+        });
+    
+    </script>
+</head>
+<body>
+
+</body>
+</html>
